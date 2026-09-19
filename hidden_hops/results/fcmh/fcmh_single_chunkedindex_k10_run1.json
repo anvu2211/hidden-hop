@@ -1,0 +1,2930 @@
+{
+ "settings": {
+  "arm": "chunked",
+  "k": 10,
+  "depth": null,
+  "reader_model": "gpt-4o-mini",
+  "reasoning_effort": "medium",
+  "retriever": "openai-large",
+  "decay_lambda": 0.5,
+  "sort_by": "serial",
+  "n_facts": 18336,
+  "notebook": "C:\\Data\\Projects\\HONOURS\\Tier 1\\Tier1_Retrieval_BaselinesMultihop_4_best_no_overfit.ipynb",
+  "notebook_mtime": "2026-09-09 20:18",
+  "run_started": "2026-09-16 01:10",
+  "tag": "r1"
+ },
+ "summary": {
+  "n": 100,
+  "SubEM": 4.0,
+  "EM": 4.0,
+  "calls_per_q": 1.0,
+  "n_errors": 0,
+  "wall_s": 11,
+  "model_ids": [
+   "gpt-4o-mini-2024-07-18"
+  ]
+ },
+ "rows": [
+  {
+   "qi": 0,
+   "question": "What is the country of origin of the sport played by Christian Abbiati?",
+   "prediction": "Italy",
+   "gold": "Philippines",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    212,
+    502,
+    203,
+    119,
+    431,
+    521,
+    82,
+    394,
+    450,
+    384
+   ],
+   "facts_shown": 337
+  },
+  {
+   "qi": 1,
+   "question": "Which religion is the country of citizenship of Karl Lueger predominantly associated with?",
+   "prediction": "Christianity",
+   "gold": "atheism",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    274,
+    212,
+    374,
+    297,
+    450,
+    26,
+    88,
+    392,
+    416,
+    197
+   ],
+   "facts_shown": 343
+  },
+  {
+   "qi": 2,
+   "question": "The continent where the country of citizenship of the spouse of the author of \"American Pastoral\" is related to is what?",
+   "prediction": "Europe",
+   "gold": "Oceania",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    35,
+    356,
+    366,
+    34,
+    537,
+    103,
+    346,
+    388,
+    99,
+    154
+   ],
+   "facts_shown": 340
+  },
+  {
+   "qi": 3,
+   "question": "What is the place of origin for the broadcaster who first aired \"Your Hit Parade\"?",
+   "prediction": "American Broadcasting Company",
+   "gold": "Paris",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    292,
+    142,
+    207,
+    235,
+    518,
+    132,
+    120,
+    33,
+    130,
+    532
+   ],
+   "facts_shown": 341
+  },
+  {
+   "qi": 4,
+   "question": "What is the name of the language in which Valmiki wrote his notable works?",
+   "prediction": "Sanskrit",
+   "gold": "English",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    251,
+    280,
+    41,
+    77,
+    444,
+    417,
+    330,
+    466,
+    179,
+    430
+   ],
+   "facts_shown": 332
+  },
+  {
+   "qi": 5,
+   "question": "What is the language officially spoken in the country where the spouse of the Chief Executive Officer of CBS Corporation holds citizenship?",
+   "prediction": "English",
+   "gold": "Walloon",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    467,
+    321,
+    156,
+    22,
+    478,
+    513,
+    537,
+    522,
+    248,
+    97
+   ],
+   "facts_shown": 341
+  },
+  {
+   "qi": 6,
+   "question": "Which language was the one in which Melvil Dewey produced their notable work?",
+   "prediction": "English",
+   "gold": "Italian",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    41,
+    421,
+    251,
+    525,
+    449,
+    96,
+    439,
+    356,
+    255,
+    385
+   ],
+   "facts_shown": 339
+  },
+  {
+   "qi": 7,
+   "question": "In which language does the director/manager, who is affiliated with \"Revolver\", communicate officially in their country of citizenship?",
+   "prediction": "English",
+   "gold": "Arabic",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    392,
+    536,
+    522,
+    431,
+    206,
+    430,
+    398,
+    81,
+    114,
+    484
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 8,
+   "question": "In which school did the author of \"Measure for Measure\" receive their education?",
+   "prediction": "Yale University",
+   "gold": "University of Oxford",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    41,
+    198,
+    531,
+    277,
+    161,
+    42,
+    525,
+    181,
+    204,
+    493
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 9,
+   "question": "What is the name of the person who created the language used as the official language of the headquarters of FC Viikingit?",
+   "prediction": "Finnish",
+   "gold": "L. L. Zamenhof",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    392,
+    81,
+    465,
+    280,
+    500,
+    479,
+    269,
+    279,
+    163,
+    389
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 10,
+   "question": "What continent does the place of birth of the chief executive officer of Visual Basic .NET belong to?",
+   "prediction": "North America",
+   "gold": "Oceania",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    114,
+    240,
+    102,
+    73,
+    260,
+    169,
+    35,
+    200,
+    348,
+    230
+   ],
+   "facts_shown": 349
+  },
+  {
+   "qi": 11,
+   "question": "Where was the person who created the religion that Giulio Alberoni was associated with born?",
+   "prediction": "Unknown",
+   "gold": "Epworth",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    531,
+    167,
+    502,
+    340,
+    514,
+    525,
+    59,
+    483,
+    455,
+    428
+   ],
+   "facts_shown": 337
+  },
+  {
+   "qi": 12,
+   "question": "What is the location of the head office of the broadcaster that originally aired \"Adventures in Paradise\"?",
+   "prediction": "American Broadcasting Company",
+   "gold": "Knoxville",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    207,
+    342,
+    132,
+    518,
+    120,
+    33,
+    415,
+    292,
+    453,
+    368
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 13,
+   "question": "What is the notable work of the performer associated with Miley Stewart?",
+   "prediction": "Hannah Montana",
+   "gold": "Gundam",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    421,
+    116,
+    205,
+    4,
+    318,
+    127,
+    74,
+    217,
+    46,
+    427
+   ],
+   "facts_shown": 347
+  },
+  {
+   "qi": 14,
+   "question": "To which continent does Fernando Lugo belong based on his citizenship?",
+   "prediction": "South America",
+   "gold": "Oceania",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    431,
+    537,
+    73,
+    60,
+    445,
+    294,
+    366,
+    213,
+    212,
+    260
+   ],
+   "facts_shown": 334
+  },
+  {
+   "qi": 15,
+   "question": "What is the place of the headquarters of the educational institution where Stewart Udall received his education?",
+   "prediction": "University of Arizona",
+   "gold": "Long Beach",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    204,
+    278,
+    187,
+    198,
+    266,
+    332,
+    480,
+    293,
+    504,
+    404
+   ],
+   "facts_shown": 321
+  },
+  {
+   "qi": 16,
+   "question": "What is the continent of the country of citizenship of the person who founded International Judo Federation?",
+   "prediction": "Europe",
+   "gold": "Europe",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    501,
+    445,
+    82,
+    67,
+    353,
+    346,
+    260,
+    530,
+    8,
+    243
+   ],
+   "facts_shown": 344
+  },
+  {
+   "qi": 17,
+   "question": "In which country was the individual who founded Duquesne University born?",
+   "prediction": "United States of America",
+   "gold": "Epworth",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    266,
+    278,
+    428,
+    44,
+    151,
+    39,
+    485,
+    429,
+    360,
+    504
+   ],
+   "facts_shown": 333
+  },
+  {
+   "qi": 18,
+   "question": "Which city serves as the capital of the country where the manufacturer which created Ford Ranger was founded?",
+   "prediction": "Albania",
+   "gold": "Paris",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    257,
+    522,
+    274,
+    218,
+    521,
+    519,
+    326,
+    194,
+    283,
+    415
+   ],
+   "facts_shown": 340
+  },
+  {
+   "qi": 19,
+   "question": "Which city is the capital of the country that created the sport associated with Peter Schmeichel's position?",
+   "prediction": "Copenhagen",
+   "gold": "Dublin",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    8,
+    502,
+    431,
+    380,
+    294,
+    285,
+    53,
+    442,
+    352,
+    157
+   ],
+   "facts_shown": 337
+  },
+  {
+   "qi": 20,
+   "question": "Who holds the title of head of state in the country where the sport that Halifax Town A.F.C. is associated with was originated?",
+   "prediction": "Mette Frederiksen",
+   "gold": "Sergio Mattarella",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    407,
+    392,
+    470,
+    371,
+    157,
+    537,
+    331,
+    8,
+    353,
+    510
+   ],
+   "facts_shown": 338
+  },
+  {
+   "qi": 21,
+   "question": "Which continent is the country of citizenship of Gustav Vigeland located in?",
+   "prediction": "Europe",
+   "gold": "Asia",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    60,
+    439,
+    318,
+    73,
+    35,
+    34,
+    445,
+    537,
+    82,
+    194
+   ],
+   "facts_shown": 337
+  },
+  {
+   "qi": 22,
+   "question": "What is the country of origin of the sport associated with John Beilein's occupation?",
+   "prediction": "United States of America",
+   "gold": "Japan",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    38,
+    332,
+    212,
+    404,
+    198,
+    213,
+    123,
+    82,
+    32,
+    407
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 23,
+   "question": "What is the name of the employer of Lynn Margulis' spouse?",
+   "prediction": "Cornell University",
+   "gold": "British Broadcasting Corporation",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    145,
+    248,
+    266,
+    339,
+    199,
+    85,
+    186,
+    126,
+    66,
+    476
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 24,
+   "question": "What kind of sports is Tina Charles into, based on the position she plays in her team?",
+   "prediction": "Basketball",
+   "gold": "American football",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    380,
+    6,
+    7,
+    369,
+    244,
+    118,
+    352,
+    67,
+    389,
+    285
+   ],
+   "facts_shown": 344
+  },
+  {
+   "qi": 25,
+   "question": "What is the continent of the country where the director / manager of \"Please Please Me\" holds citizenship?",
+   "prediction": "Asia",
+   "gold": "Oceania",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    318,
+    536,
+    405,
+    513,
+    537,
+    366,
+    203,
+    431,
+    35,
+    309
+   ],
+   "facts_shown": 340
+  },
+  {
+   "qi": 26,
+   "question": "What is the birthplace of the spouse of Bianca Jagger?",
+   "prediction": "Not available.",
+   "gold": "North Charleston",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    513,
+    537,
+    224,
+    93,
+    477,
+    380,
+    288,
+    83,
+    4,
+    532
+   ],
+   "facts_shown": 343
+  },
+  {
+   "qi": 27,
+   "question": "What city served as the capital of the country to which the founder of the sport played in the 2014 World Judo Championships belonged?",
+   "prediction": "Tokyo",
+   "gold": "New Delhi",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    8,
+    431,
+    274,
+    519,
+    326,
+    442,
+    406,
+    521,
+    415,
+    103
+   ],
+   "facts_shown": 330
+  },
+  {
+   "qi": 28,
+   "question": "In which city is the seat of government located in the country where Family Force 5 came from?",
+   "prediction": "United States",
+   "gold": "Bondi Junction",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    523,
+    415,
+    451,
+    194,
+    89,
+    46,
+    88,
+    521,
+    460,
+    158
+   ],
+   "facts_shown": 330
+  },
+  {
+   "qi": 29,
+   "question": "What location was the place of death of the author of Carmilla?",
+   "prediction": "Not specified.",
+   "gold": "New York City",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    482,
+    5,
+    150,
+    301,
+    356,
+    439,
+    289,
+    30,
+    154,
+    75
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 30,
+   "question": "From what country does the music genre of Dave Matthews Band originate?",
+   "prediction": "United States of America",
+   "gold": "Spain",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    42,
+    78,
+    366,
+    9,
+    43,
+    83,
+    75,
+    158,
+    332,
+    275
+   ],
+   "facts_shown": 337
+  },
+  {
+   "qi": 31,
+   "question": "Who holds the position of chairperson at the organization where Stephen Greenblatt is employed?",
+   "prediction": "Not available.",
+   "gold": "Mike Cheston",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    87,
+    266,
+    528,
+    354,
+    39,
+    241,
+    161,
+    371,
+    259,
+    330
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 32,
+   "question": "What is the language recognized as the official medium of communication in the country where the director/manager of the performer with ID 1 is a citizen?",
+   "prediction": "English",
+   "gold": "Arabic",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    392,
+    430,
+    358,
+    81,
+    315,
+    522,
+    175,
+    160,
+    206,
+    449
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 33,
+   "question": "Who is responsible for the founding of the religious group that has its roots in the institution where James Michael Curley received his education?",
+   "prediction": "Lyndon B. Johnson",
+   "gold": "Gérard Blitz",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    403,
+    340,
+    531,
+    325,
+    39,
+    424,
+    266,
+    525,
+    332,
+    178
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 34,
+   "question": "In what city did the individual who established Metz Cathedral have their occupation?",
+   "prediction": "Paris",
+   "gold": "London",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    481,
+    531,
+    149,
+    477,
+    411,
+    10,
+    31,
+    429,
+    147,
+    483
+   ],
+   "facts_shown": 346
+  },
+  {
+   "qi": 35,
+   "question": "What is the capital city of the country which Sumie Sakai's sport founder holds citizenship in?",
+   "prediction": "Tokyo",
+   "gold": "New Delhi",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    289,
+    8,
+    431,
+    380,
+    173,
+    362,
+    442,
+    327,
+    212,
+    521
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 36,
+   "question": "What is the name of the city which is the capital of the country where the director/manager of \"Back in the U.S.S.R.\" holds citizenship?",
+   "prediction": "Duluth",
+   "gold": "Canberra",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    318,
+    539,
+    431,
+    415,
+    392,
+    523,
+    89,
+    326,
+    203,
+    327
+   ],
+   "facts_shown": 322
+  },
+  {
+   "qi": 37,
+   "question": "What was the name of the person who founded the religion that Gabriel Narutowicz belonged to?",
+   "prediction": "Christian Science",
+   "gold": "Gérard Blitz",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    340,
+    406,
+    266,
+    374,
+    403,
+    450,
+    487,
+    390,
+    527,
+    39
+   ],
+   "facts_shown": 331
+  },
+  {
+   "qi": 38,
+   "question": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+   "prediction": "English",
+   "gold": "German",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    392,
+    66,
+    315,
+    496,
+    206,
+    38,
+    407,
+    510,
+    81,
+    213
+   ],
+   "facts_shown": 337
+  },
+  {
+   "qi": 39,
+   "question": "What is the name of the school where the author of \"La Celestina\" studied?",
+   "prediction": "Not available.",
+   "gold": "Princeton University",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    41,
+    525,
+    531,
+    385,
+    161,
+    39,
+    204,
+    325,
+    5,
+    293
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 40,
+   "question": "Which language is considered the official language of the religion that Malik Kafur practiced?",
+   "prediction": "Hinduism",
+   "gold": "Picard",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    430,
+    506,
+    316,
+    252,
+    280,
+    185,
+    230,
+    525,
+    251,
+    315
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 41,
+   "question": "What is the name of the individual who both directed and managed the performer on \"Yesterday and Today\"?",
+   "prediction": "Madonna",
+   "gold": "Narendra Modi",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    533,
+    539,
+    85,
+    110,
+    459,
+    205,
+    448,
+    203,
+    509,
+    11
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 42,
+   "question": "What city serves as the capital of the country where the sport played by Derek Holland originated?",
+   "prediction": "Harrisville",
+   "gold": "Ottawa",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    8,
+    519,
+    209,
+    352,
+    415,
+    285,
+    53,
+    103,
+    380,
+    75
+   ],
+   "facts_shown": 344
+  },
+  {
+   "qi": 43,
+   "question": "What are the languages that the chairperson of Muttahida Qaumi Movement is fluent in when speaking, writing, or signing?",
+   "prediction": "Not specified.",
+   "gold": "English",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    430,
+    280,
+    251,
+    321,
+    81,
+    230,
+    476,
+    326,
+    504,
+    422
+   ],
+   "facts_shown": 332
+  },
+  {
+   "qi": 44,
+   "question": "What city serves as the capital of the country that Ragini Dwivedi belongs to?",
+   "prediction": "Bangalore",
+   "gold": "Rupnagar",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    326,
+    113,
+    274,
+    175,
+    8,
+    431,
+    46,
+    246,
+    337,
+    208
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 45,
+   "question": "What is the place of demise of the author of the book \"Dubliners\"?",
+   "prediction": "London",
+   "gold": "London",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    482,
+    75,
+    425,
+    439,
+    301,
+    170,
+    150,
+    5,
+    247,
+    224
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 46,
+   "question": "Where is the headquarters of the company that developed Sailfish OS located?",
+   "prediction": "Helsinki",
+   "gold": "Normanton",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    290,
+    247,
+    501,
+    114,
+    507,
+    466,
+    372,
+    479,
+    223,
+    308
+   ],
+   "facts_shown": 345
+  },
+  {
+   "qi": 47,
+   "question": "Which city serves as the capital of the country of origin of the sport that David Price plays?",
+   "prediction": "Harrisville",
+   "gold": "Manila",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    519,
+    209,
+    352,
+    8,
+    285,
+    158,
+    380,
+    75,
+    103,
+    231
+   ],
+   "facts_shown": 343
+  },
+  {
+   "qi": 48,
+   "question": "Which language is the official language of the country where the spouse of the artist who sang \"All of Me\" comes from?",
+   "prediction": "English",
+   "gold": "Spanish",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    280,
+    358,
+    449,
+    288,
+    4,
+    513,
+    392,
+    478,
+    16,
+    142
+   ],
+   "facts_shown": 343
+  },
+  {
+   "qi": 49,
+   "question": "What is the birthplace of the person who created Indiana Jones?",
+   "prediction": "Not specified.",
+   "gold": "Lüftelberg",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    9,
+    356,
+    33,
+    140,
+    341,
+    211,
+    198,
+    193,
+    95,
+    391
+   ],
+   "facts_shown": 342
+  },
+  {
+   "qi": 50,
+   "question": "What is the name of the person who leads the company that produces the Chevrolet Chevelle?",
+   "prediction": "General Motors",
+   "gold": "David Potts",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    215,
+    518,
+    108,
+    312,
+    1,
+    292,
+    110,
+    31,
+    466,
+    522
+   ],
+   "facts_shown": 345
+  },
+  {
+   "qi": 51,
+   "question": "Which profession does the chairperson of the Economic Freedom Fighters belong to?",
+   "prediction": "Not available.",
+   "gold": "composer",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    87,
+    259,
+    208,
+    85,
+    94,
+    266,
+    126,
+    275,
+    175,
+    490
+   ],
+   "facts_shown": 338
+  },
+  {
+   "qi": 52,
+   "question": "Which continent is the place of birth of the CEO of the developer of Windows Aero located in?",
+   "prediction": "North America",
+   "gold": "Africa",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    114,
+    260,
+    484,
+    69,
+    308,
+    102,
+    348,
+    73,
+    223,
+    439
+   ],
+   "facts_shown": 346
+  },
+  {
+   "qi": 53,
+   "question": "Who currently holds the position of head of government in the country where the genre of Julian Lennon was founded?",
+   "prediction": "Mette Frederiksen",
+   "gold": "Ole Johan Vierdal",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    513,
+    392,
+    470,
+    537,
+    56,
+    326,
+    371,
+    407,
+    273,
+    393
+   ],
+   "facts_shown": 337
+  },
+  {
+   "qi": 54,
+   "question": "In which city did the founder of the religion of Steve Cooley have their work location?",
+   "prediction": "Washington, D.C.",
+   "gold": "Washington, D.C.",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    523,
+    266,
+    479,
+    403,
+    531,
+    78,
+    247,
+    340,
+    193,
+    167
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 55,
+   "question": "Which city serves as the capital of the country where the director/manager of the original broadcaster of The Partridge Family is a citizen of?",
+   "prediction": "Washington, D.C.",
+   "gold": "Oderzo",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    415,
+    523,
+    327,
+    533,
+    539,
+    453,
+    207,
+    97,
+    46,
+    399
+   ],
+   "facts_shown": 326
+  },
+  {
+   "qi": 56,
+   "question": "What is the name of the person who was in charge of the organization that Philip Agee worked for?",
+   "prediction": "Tim Armstrong",
+   "gold": "Christopher A. Wray",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    539,
+    536,
+    162,
+    44,
+    1,
+    273,
+    307,
+    87,
+    470,
+    121
+   ],
+   "facts_shown": 329
+  },
+  {
+   "qi": 57,
+   "question": "What is the birthplace of the person who established the religion of Saint Eligius?",
+   "prediction": "Not found.",
+   "gold": "Epworth",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    481,
+    531,
+    514,
+    194,
+    178,
+    308,
+    472,
+    250,
+    247,
+    502
+   ],
+   "facts_shown": 340
+  },
+  {
+   "qi": 58,
+   "question": "What is the authorship's greatest contribution to literature of the book \"The Age of Reason\"?",
+   "prediction": "Not found.",
+   "gold": "Natya Shastra",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    172,
+    498,
+    59,
+    30,
+    516,
+    529,
+    52,
+    443,
+    96,
+    41
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 59,
+   "question": "What is the birthplace of the current holder of the Illinois Attorney General's office?",
+   "prediction": "Lisa Madigan",
+   "gold": "Higashiyamanashi District, Yamanashi",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    38,
+    282,
+    198,
+    485,
+    193,
+    120,
+    337,
+    87,
+    381,
+    415
+   ],
+   "facts_shown": 337
+  },
+  {
+   "qi": 60,
+   "question": "Which historical or religious figure established the religion that Nicholas V is affiliated with?",
+   "prediction": "Catholicism",
+   "gold": "Lyndon B. Johnson",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    340,
+    419,
+    101,
+    525,
+    39,
+    325,
+    167,
+    450,
+    406,
+    471
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 61,
+   "question": "What is the birthplace of the author of Ivanhoe?",
+   "prediction": "Edinburgh",
+   "gold": "Mexico City",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    301,
+    150,
+    356,
+    291,
+    439,
+    90,
+    170,
+    289,
+    498,
+    41
+   ],
+   "facts_shown": 340
+  },
+  {
+   "qi": 62,
+   "question": "What is the name of the child of the person who created Feluda?",
+   "prediction": "Not available.",
+   "gold": "Zygmunt Krasiński",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    341,
+    275,
+    340,
+    311,
+    263,
+    74,
+    492,
+    211,
+    356,
+    145
+   ],
+   "facts_shown": 341
+  },
+  {
+   "qi": 63,
+   "question": "In what city does the director/manager of the original broadcaster of \"NHL on ABC\" hold their citizenship?",
+   "prediction": "United States of America",
+   "gold": "New Delhi",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    342,
+    120,
+    327,
+    415,
+    232,
+    207,
+    163,
+    29,
+    33,
+    337
+   ],
+   "facts_shown": 338
+  },
+  {
+   "qi": 64,
+   "question": "Which language is considered the official language of the country to which Yip Harburg belongs?",
+   "prediction": "English",
+   "gold": "Finnish",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    81,
+    449,
+    95,
+    184,
+    280,
+    255,
+    392,
+    421,
+    275,
+    229
+   ],
+   "facts_shown": 339
+  },
+  {
+   "qi": 65,
+   "question": "What is the literary genre of the book \"Dune\" written by the author?",
+   "prediction": "Not specified.",
+   "gold": "progressive rock",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    96,
+    263,
+    423,
+    251,
+    534,
+    461,
+    145,
+    303,
+    525,
+    421
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 66,
+   "question": "What is the continent of origin of Thomas Dolby, a musician?",
+   "prediction": "United States of America",
+   "gold": "South America",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    366,
+    439,
+    43,
+    42,
+    460,
+    275,
+    513,
+    78,
+    191,
+    256
+   ],
+   "facts_shown": 339
+  },
+  {
+   "qi": 67,
+   "question": "What is the name of the school where the founder of House of Bonaparte studied?",
+   "prediction": "Yale University",
+   "gold": "Trinity College Dublin",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    531,
+    487,
+    167,
+    259,
+    242,
+    266,
+    404,
+    495,
+    278,
+    325
+   ],
+   "facts_shown": 328
+  },
+  {
+   "qi": 68,
+   "question": "In which place was the manufacturing company of Chevrolet Caprice founded?",
+   "prediction": "General Motors",
+   "gold": "Silver Lake",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    257,
+    283,
+    33,
+    78,
+    523,
+    215,
+    270,
+    194,
+    466,
+    519
+   ],
+   "facts_shown": 343
+  },
+  {
+   "qi": 69,
+   "question": "Which city is the capital of the country where the genre, which Benjamin Sisko performed, originated?",
+   "prediction": "Harrisville",
+   "gold": "Rajanpur",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    46,
+    460,
+    519,
+    297,
+    142,
+    499,
+    415,
+    486,
+    442,
+    237
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 70,
+   "question": "What country is the nationality of the spouse of the author of \"David Copperfield\"?",
+   "prediction": "United Kingdom",
+   "gold": "Belgium",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    90,
+    356,
+    35,
+    498,
+    275,
+    462,
+    361,
+    7,
+    154,
+    341
+   ],
+   "facts_shown": 342
+  },
+  {
+   "qi": 71,
+   "question": "In which organization did Francis Parkman work as an employee and who is its chairperson?",
+   "prediction": "Not available.",
+   "gold": "William J. Donovan",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    528,
+    340,
+    87,
+    343,
+    262,
+    36,
+    266,
+    307,
+    1,
+    424
+   ],
+   "facts_shown": 343
+  },
+  {
+   "qi": 72,
+   "question": "What is the capital of the country where the director/manager of \"Good Morning America\" holds a citizenship?",
+   "prediction": "United States of America",
+   "gold": "Beaumont",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    327,
+    342,
+    175,
+    415,
+    163,
+    326,
+    114,
+    97,
+    156,
+    539
+   ],
+   "facts_shown": 325
+  },
+  {
+   "qi": 73,
+   "question": "In which language does the government of the country Pee Wee King holds citizenship conduct its official business?",
+   "prediction": "French",
+   "gold": "Hebrew",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    449,
+    510,
+    392,
+    513,
+    478,
+    81,
+    358,
+    280,
+    536,
+    250
+   ],
+   "facts_shown": 339
+  },
+  {
+   "qi": 74,
+   "question": "In what language do official government documents get written in the country that Tomokazu Seki is a citizen of?",
+   "prediction": "Japanese",
+   "gold": "German",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    280,
+    448,
+    206,
+    362,
+    18,
+    288,
+    232,
+    358,
+    431,
+    522
+   ],
+   "facts_shown": 339
+  },
+  {
+   "qi": 75,
+   "question": "What continent is the country of citizenship of the manager/director of Taxman located in?",
+   "prediction": "Europe",
+   "gold": "Asia",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    445,
+    114,
+    431,
+    366,
+    60,
+    351,
+    35,
+    260,
+    405,
+    82
+   ],
+   "facts_shown": 341
+  },
+  {
+   "qi": 76,
+   "question": "In which city was the person who created the centrifugal governor born?",
+   "prediction": "London",
+   "gold": "Edinburgh",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    150,
+    429,
+    341,
+    507,
+    333,
+    531,
+    522,
+    59,
+    170,
+    45
+   ],
+   "facts_shown": 344
+  },
+  {
+   "qi": 77,
+   "question": "What is the name of the capital city of the country to which the spouse of the author of Star Trek canon holds citizenship?",
+   "prediction": "Washington, D.C.",
+   "gold": "Berlin",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    289,
+    327,
+    224,
+    523,
+    377,
+    522,
+    117,
+    462,
+    478,
+    74
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 78,
+   "question": "Which language is considered the official language of Eric Weissberg's country of citizenship?",
+   "prediction": "English",
+   "gold": "Finnish",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    449,
+    81,
+    229,
+    255,
+    500,
+    280,
+    513,
+    155,
+    315,
+    416
+   ],
+   "facts_shown": 340
+  },
+  {
+   "qi": 79,
+   "question": "Where is the educational institution located where Tom Selleck was educated and its headquarters also situated?",
+   "prediction": "Not found.",
+   "gold": "Vienna",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    198,
+    204,
+    278,
+    187,
+    437,
+    195,
+    404,
+    293,
+    504,
+    322
+   ],
+   "facts_shown": 327
+  },
+  {
+   "qi": 80,
+   "question": "Which language was used by Mario Puzo in writing his famous work?",
+   "prediction": "English",
+   "gold": "American English",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    81,
+    496,
+    263,
+    251,
+    35,
+    449,
+    398,
+    525,
+    522,
+    452
+   ],
+   "facts_shown": 341
+  },
+  {
+   "qi": 81,
+   "question": "Which continent is the country of origin of Teenage Fanclub located in?",
+   "prediction": "Europe",
+   "gold": "Oceania",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    366,
+    318,
+    43,
+    34,
+    405,
+    275,
+    439,
+    442,
+    103,
+    73
+   ],
+   "facts_shown": 337
+  },
+  {
+   "qi": 82,
+   "question": "Where was the work location of the individual who founded the religion practiced by Edward Mooney?",
+   "prediction": "Methodism",
+   "gold": "Riyadh Region",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    403,
+    523,
+    340,
+    531,
+    78,
+    266,
+    385,
+    424,
+    437,
+    446
+   ],
+   "facts_shown": 342
+  },
+  {
+   "qi": 83,
+   "question": "What is the professional background of the spouse of Lalu Prasad Yadav?",
+   "prediction": "Politician",
+   "gold": "singer",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    476,
+    126,
+    248,
+    199,
+    321,
+    377,
+    23,
+    86,
+    374,
+    329
+   ],
+   "facts_shown": 336
+  },
+  {
+   "qi": 84,
+   "question": "What is the name of the capital city of the country that is the origin of the sport played by Enrico Villanueva?",
+   "prediction": "Harrisville",
+   "gold": "Bondi Junction",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    46,
+    431,
+    352,
+    8,
+    384,
+    201,
+    428,
+    519,
+    103,
+    212
+   ],
+   "facts_shown": 339
+  },
+  {
+   "qi": 85,
+   "question": "In what field did the author, who is known for Julius Caesar, work in?",
+   "prediction": "Literature",
+   "gold": "philosopher",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    452,
+    41,
+    474,
+    418,
+    242,
+    150,
+    354,
+    35,
+    301,
+    59
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 86,
+   "question": "Which faith is the partner of Benigno Aquino Jr. affiliated with?",
+   "prediction": "Catholic Church",
+   "gold": "Methodism",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    374,
+    505,
+    525,
+    199,
+    277,
+    268,
+    495,
+    88,
+    419,
+    126
+   ],
+   "facts_shown": 334
+  },
+  {
+   "qi": 87,
+   "question": "From which country does the spouse of the creator of WWE Tough Enough hold citizenship?",
+   "prediction": "United States of America",
+   "gold": "Ireland",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    478,
+    159,
+    392,
+    116,
+    213,
+    288,
+    232,
+    164,
+    4,
+    93
+   ],
+   "facts_shown": 346
+  },
+  {
+   "qi": 88,
+   "question": "What is the name of the current head of state of the country where \"Outsourced\" came from?",
+   "prediction": "Khalifa bin Zayed Al Nahyan",
+   "gold": "Recep Tayyip Erdoğan",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    470,
+    175,
+    407,
+    431,
+    146,
+    70,
+    173,
+    97,
+    226,
+    326
+   ],
+   "facts_shown": 330
+  },
+  {
+   "qi": 89,
+   "question": "In which city is the headquarters of the TV network that originally broadcasted NBA on ABC?",
+   "prediction": "Burbank",
+   "gold": "Red Bank",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    342,
+    207,
+    120,
+    198,
+    453,
+    518,
+    33,
+    512,
+    415,
+    445
+   ],
+   "facts_shown": 332
+  },
+  {
+   "qi": 90,
+   "question": "What is the name of the founder of the religion associated with Dzhokhar Dudayev?",
+   "prediction": "Islam",
+   "gold": "Gérard Blitz",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    266,
+    406,
+    530,
+    353,
+    390,
+    506,
+    424,
+    36,
+    323,
+    403
+   ],
+   "facts_shown": 329
+  },
+  {
+   "qi": 91,
+   "question": "Which political figure holds the role of head of state for the country that Brad Stevens' sport is associated with?",
+   "prediction": "António Costa",
+   "gold": "Mikhail Gorbachev",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    407,
+    82,
+    89,
+    208,
+    16,
+    352,
+    232,
+    380,
+    392,
+    126
+   ],
+   "facts_shown": 342
+  },
+  {
+   "qi": 92,
+   "question": "What is the name of the leader of the government in the country where the sport related to the 1985 NBA Draft originated?",
+   "prediction": "António Costa",
+   "gold": "Lili Bosse",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    407,
+    470,
+    238,
+    57,
+    173,
+    212,
+    326,
+    82,
+    89,
+    232
+   ],
+   "facts_shown": 339
+  },
+  {
+   "qi": 93,
+   "question": "In which city is the capital located of the country where the sport that Ricky Rubio plays originated?",
+   "prediction": "Harrisville",
+   "gold": "Bondi Junction",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    8,
+    89,
+    294,
+    352,
+    442,
+    519,
+    285,
+    257,
+    209,
+    194
+   ],
+   "facts_shown": 339
+  },
+  {
+   "qi": 94,
+   "question": "What is the primary language spoken in the country where Flogging Molly comes from?",
+   "prediction": "English",
+   "gold": "English",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    392,
+    75,
+    98,
+    81,
+    439,
+    430,
+    280,
+    315,
+    127,
+    493
+   ],
+   "facts_shown": 335
+  },
+  {
+   "qi": 95,
+   "question": "Which company did the employer of the creator of Link work for?",
+   "prediction": "Apple Inc.",
+   "gold": "University of Oxford",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    36,
+    44,
+    223,
+    69,
+    211,
+    354,
+    214,
+    341,
+    57,
+    372
+   ],
+   "facts_shown": 340
+  },
+  {
+   "qi": 96,
+   "question": "What is the country of origin of the sport associated with Dave Dombrowski's employer?",
+   "prediction": "United States of America",
+   "gold": "Australia",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    119,
+    231,
+    215,
+    106,
+    29,
+    367,
+    519,
+    198,
+    380,
+    397
+   ],
+   "facts_shown": 345
+  },
+  {
+   "qi": 97,
+   "question": "Which sport is associated with the position played by Bobby Hurley?",
+   "prediction": "basketball",
+   "gold": "sumo",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    123,
+    215,
+    495,
+    26,
+    490,
+    111,
+    158,
+    475,
+    66,
+    534
+   ],
+   "facts_shown": 337
+  },
+  {
+   "qi": 98,
+   "question": "What is the place of employment of the individual who founded the religion practiced by Jacqueline Kennedy Onassis?",
+   "prediction": "Church of Scotland",
+   "gold": "Edinburgh",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    523,
+    531,
+    419,
+    424,
+    514,
+    406,
+    528,
+    403,
+    101,
+    374
+   ],
+   "facts_shown": 342
+  },
+  {
+   "qi": 99,
+   "question": "What is the birthplace of the person who founded the religion that Ferdinando I de' Medici professes?",
+   "prediction": "Methodism",
+   "gold": "Epworth",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "fixed_hops": [],
+   "retrievals": [],
+   "model_ids": [
+    "gpt-4o-mini-2024-07-18"
+   ],
+   "error": "",
+   "chunks": [
+    531,
+    406,
+    266,
+    521,
+    385,
+    471,
+    247,
+    167,
+    523,
+    325
+   ],
+   "facts_shown": 333
+  }
+ ]
+}

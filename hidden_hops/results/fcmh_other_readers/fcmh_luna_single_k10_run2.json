@@ -1,0 +1,3523 @@
+{
+ "settings": {
+  "run": "single_k10",
+  "tag": "newprompt_r2",
+  "reader_model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "retriever": "openai-large",
+  "decay_lambda": 0.5,
+  "sort_by": "serial",
+  "solve_k": 3,
+  "max_split_depth": 2
+ },
+ "summary": {
+  "n": 100,
+  "SubEM": 14.0,
+  "EM": 14.0,
+  "calls_per_q": 1.0,
+  "n_errors": 0,
+  "wall_s": 75
+ },
+ "rows": [
+  {
+   "qi": 0,
+   "question": "What is the country of origin of the sport played by Christian Abbiati?",
+   "prediction": "Greece",
+   "gold": "Philippines",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the country of origin of the sport played by Christian Abbiati?",
+     "k": 10,
+     "serials": [
+      6954,
+      10528,
+      10906,
+      15362,
+      16053,
+      16829,
+      17823,
+      17855,
+      18026,
+      18034
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the country of origin of the sport played by Christian Abbiati?",
+     "a": "Greece"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 1,
+   "question": "Which religion is the country of citizenship of Karl Lueger predominantly associated with?",
+   "prediction": "atheism",
+   "gold": "atheism",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which religion is the country of citizenship of Karl Lueger predominantly associated with?",
+     "k": 10,
+     "serials": [
+      1219,
+      7545,
+      9249,
+      9973,
+      10355,
+      11423,
+      13868,
+      15287,
+      16338,
+      16806
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which religion is the country of citizenship of Karl Lueger predominantly associated with?",
+     "a": "atheism"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 2,
+   "question": "The continent where the country of citizenship of the spouse of the author of \"American Pastoral\" is related to is what?",
+   "prediction": "America",
+   "gold": "Oceania",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "The continent where the country of citizenship of the spouse of the author of \"American Pastoral\" is related to is what?",
+     "k": 10,
+     "serials": [
+      9135,
+      10793,
+      15059,
+      15604,
+      15972,
+      16287,
+      16665,
+      17038,
+      17980,
+      18291
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "The continent where the country of citizenship of the spouse of the author of \"American Pastoral\" is related to is what?",
+     "a": "America"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 3,
+   "question": "What is the place of origin for the broadcaster who first aired \"Your Hit Parade\"?",
+   "prediction": "NBC",
+   "gold": "Paris",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the place of origin for the broadcaster who first aired \"Your Hit Parade\"?",
+     "k": 10,
+     "serials": [
+      6274,
+      13031,
+      15528,
+      17308,
+      17325,
+      17354,
+      18143,
+      18223,
+      18256,
+      18312
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the place of origin for the broadcaster who first aired \"Your Hit Parade\"?",
+     "a": "NBC"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 4,
+   "question": "What is the name of the language in which Valmiki wrote his notable works?",
+   "prediction": "English",
+   "gold": "English",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the language in which Valmiki wrote his notable works?",
+     "k": 10,
+     "serials": [
+      6086,
+      8588,
+      11280,
+      11460,
+      12454,
+      13417,
+      14617,
+      16117,
+      17091,
+      18322
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the language in which Valmiki wrote his notable works?",
+     "a": "English"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 5,
+   "question": "What is the language officially spoken in the country where the spouse of the Chief Executive Officer of CBS Corporation holds citizenship?",
+   "prediction": "English",
+   "gold": "Walloon",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the language officially spoken in the country where the spouse of the Chief Executive Officer of CBS Corporation holds citizenship?",
+     "k": 10,
+     "serials": [
+      13670,
+      15219,
+      15536,
+      15919,
+      16068,
+      16195,
+      16209,
+      17366,
+      17512,
+      17984
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the language officially spoken in the country where the spouse of the Chief Executive Officer of CBS Corporation holds citizenship?",
+     "a": "English"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 6,
+   "question": "Which language was the one in which Melvil Dewey produced their notable work?",
+   "prediction": "Italian",
+   "gold": "Italian",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which language was the one in which Melvil Dewey produced their notable work?",
+     "k": 10,
+     "serials": [
+      5671,
+      7738,
+      11551,
+      13871,
+      14673,
+      15402,
+      16360,
+      17269,
+      17867,
+      18141
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which language was the one in which Melvil Dewey produced their notable work?",
+     "a": "Italian"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 7,
+   "question": "In which language does the director/manager, who is affiliated with \"Revolver\", communicate officially in their country of citizenship?",
+   "prediction": "Spanish",
+   "gold": "Arabic",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which language does the director/manager, who is affiliated with \"Revolver\", communicate officially in their country of citizenship?",
+     "k": 10,
+     "serials": [
+      13549,
+      14394,
+      15938,
+      16333,
+      16797,
+      17040,
+      17132,
+      17296,
+      17444,
+      17484
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which language does the director/manager, who is affiliated with \"Revolver\", communicate officially in their country of citizenship?",
+     "a": "Spanish"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 8,
+   "question": "In which school did the author of \"Measure for Measure\" receive their education?",
+   "prediction": "University of Oxford",
+   "gold": "University of Oxford",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which school did the author of \"Measure for Measure\" receive their education?",
+     "k": 10,
+     "serials": [
+      9617,
+      13949,
+      14246,
+      15581,
+      15696,
+      16653,
+      16745,
+      16761,
+      17209,
+      18044
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which school did the author of \"Measure for Measure\" receive their education?",
+     "a": "University of Oxford"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 9,
+   "question": "What is the name of the person who created the language used as the official language of the headquarters of FC Viikingit?",
+   "prediction": "Hella Wuolijoki",
+   "gold": "L. L. Zamenhof",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the person who created the language used as the official language of the headquarters of FC Viikingit?",
+     "k": 10,
+     "serials": [
+      15389,
+      15602,
+      16400,
+      16747,
+      16919,
+      17024,
+      17479,
+      17753,
+      17771,
+      17981
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the person who created the language used as the official language of the headquarters of FC Viikingit?",
+     "a": "Hella Wuolijoki"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 10,
+   "question": "What continent does the place of birth of the chief executive officer of Visual Basic .NET belong to?",
+   "prediction": "London",
+   "gold": "Oceania",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What continent does the place of birth of the chief executive officer of Visual Basic .NET belong to?",
+     "k": 10,
+     "serials": [
+      8203,
+      10392,
+      11408,
+      13570,
+      14074,
+      15013,
+      15743,
+      17398,
+      17754,
+      17849
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What continent does the place of birth of the chief executive officer of Visual Basic .NET belong to?",
+     "a": "London"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 11,
+   "question": "Where was the person who created the religion that Giulio Alberoni was associated with born?",
+   "prediction": "Methodism",
+   "gold": "Epworth",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Where was the person who created the religion that Giulio Alberoni was associated with born?",
+     "k": 10,
+     "serials": [
+      10627,
+      14027,
+      15041,
+      15413,
+      16419,
+      16870,
+      16958,
+      17084,
+      17865,
+      18244
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Where was the person who created the religion that Giulio Alberoni was associated with born?",
+     "a": "Methodism"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 12,
+   "question": "What is the location of the head office of the broadcaster that originally aired \"Adventures in Paradise\"?",
+   "prediction": "city of California",
+   "gold": "Knoxville",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the location of the head office of the broadcaster that originally aired \"Adventures in Paradise\"?",
+     "k": 10,
+     "serials": [
+      9902,
+      11400,
+      14162,
+      15213,
+      16170,
+      17325,
+      18143,
+      18187,
+      18197,
+      18223
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the location of the head office of the broadcaster that originally aired \"Adventures in Paradise\"?",
+     "a": "city of California"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 13,
+   "question": "What is the notable work of the performer associated with Miley Stewart?",
+   "prediction": "John Lennon",
+   "gold": "Gundam",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the notable work of the performer associated with Miley Stewart?",
+     "k": 10,
+     "serials": [
+      851,
+      4042,
+      7043,
+      8244,
+      8723,
+      9789,
+      11396,
+      14341,
+      16285,
+      18133
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the notable work of the performer associated with Miley Stewart?",
+     "a": "John Lennon"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 14,
+   "question": "To which continent does Fernando Lugo belong based on his citizenship?",
+   "prediction": "South America",
+   "gold": "Oceania",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "To which continent does Fernando Lugo belong based on his citizenship?",
+     "k": 10,
+     "serials": [
+      5390,
+      13064,
+      13675,
+      14149,
+      17101,
+      17350,
+      17543,
+      17714,
+      17820,
+      18263
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "To which continent does Fernando Lugo belong based on his citizenship?",
+     "a": "South America"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 15,
+   "question": "What is the place of the headquarters of the educational institution where Stewart Udall received his education?",
+   "prediction": "Tucson",
+   "gold": "Long Beach",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the place of the headquarters of the educational institution where Stewart Udall received his education?",
+     "k": 10,
+     "serials": [
+      4014,
+      11670,
+      12842,
+      15285,
+      16040,
+      16756,
+      16972,
+      17153,
+      17838,
+      18163
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the place of the headquarters of the educational institution where Stewart Udall received his education?",
+     "a": "Tucson"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 16,
+   "question": "What is the continent of the country of citizenship of the person who founded International Judo Federation?",
+   "prediction": "Europe",
+   "gold": "Europe",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the continent of the country of citizenship of the person who founded International Judo Federation?",
+     "k": 10,
+     "serials": [
+      3494,
+      3728,
+      9721,
+      10581,
+      11176,
+      11585,
+      14240,
+      14666,
+      15833,
+      18192
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the continent of the country of citizenship of the person who founded International Judo Federation?",
+     "a": "Europe"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 17,
+   "question": "In which country was the individual who founded Duquesne University born?",
+   "prediction": "Methodism",
+   "gold": "Epworth",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which country was the individual who founded Duquesne University born?",
+     "k": 10,
+     "serials": [
+      15113,
+      15522,
+      15681,
+      17058,
+      17288,
+      17608,
+      17897,
+      17994,
+      18070,
+      18163
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which country was the individual who founded Duquesne University born?",
+     "a": "Methodism"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 18,
+   "question": "Which city serves as the capital of the country where the manufacturer which created Ford Ranger was founded?",
+   "prediction": "Bangkok",
+   "gold": "Paris",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which city serves as the capital of the country where the manufacturer which created Ford Ranger was founded?",
+     "k": 10,
+     "serials": [
+      14040,
+      15417,
+      15873,
+      16048,
+      16879,
+      17659,
+      17725,
+      17940,
+      18089,
+      18329
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which city serves as the capital of the country where the manufacturer which created Ford Ranger was founded?",
+     "a": "Bangkok"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 19,
+   "question": "Which city is the capital of the country that created the sport associated with Peter Schmeichel's position?",
+   "prediction": "Manchester",
+   "gold": "Dublin",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which city is the capital of the country that created the sport associated with Peter Schmeichel's position?",
+     "k": 10,
+     "serials": [
+      4567,
+      11338,
+      11954,
+      15010,
+      17003,
+      17093,
+      17502,
+      17859,
+      17900,
+      18057
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which city is the capital of the country that created the sport associated with Peter Schmeichel's position?",
+     "a": "Manchester"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 20,
+   "question": "Who holds the title of head of state in the country where the sport that Halifax Town A.F.C. is associated with was originated?",
+   "prediction": "Harald V of Norway",
+   "gold": "Sergio Mattarella",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Who holds the title of head of state in the country where the sport that Halifax Town A.F.C. is associated with was originated?",
+     "k": 10,
+     "serials": [
+      6623,
+      8679,
+      12940,
+      12975,
+      13413,
+      16825,
+      17429,
+      17854,
+      17937,
+      18214
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Who holds the title of head of state in the country where the sport that Halifax Town A.F.C. is associated with was originated?",
+     "a": "Harald V of Norway"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 21,
+   "question": "Which continent is the country of citizenship of Gustav Vigeland located in?",
+   "prediction": "Europe",
+   "gold": "Asia",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which continent is the country of citizenship of Gustav Vigeland located in?",
+     "k": 10,
+     "serials": [
+      7252,
+      7413,
+      8340,
+      8631,
+      13095,
+      14980,
+      15634,
+      17543,
+      18255,
+      18293
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which continent is the country of citizenship of Gustav Vigeland located in?",
+     "a": "Europe"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 22,
+   "question": "What is the country of origin of the sport associated with John Beilein's occupation?",
+   "prediction": "United States of America",
+   "gold": "Japan",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the country of origin of the sport associated with John Beilein's occupation?",
+     "k": 10,
+     "serials": [
+      10775,
+      11049,
+      12504,
+      14795,
+      15837,
+      16412,
+      16805,
+      17323,
+      17651,
+      18073
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the country of origin of the sport associated with John Beilein's occupation?",
+     "a": "United States of America"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 23,
+   "question": "What is the name of the employer of Lynn Margulis' spouse?",
+   "prediction": "Not specified",
+   "gold": "British Broadcasting Corporation",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the employer of Lynn Margulis' spouse?",
+     "k": 10,
+     "serials": [
+      4991,
+      15963,
+      16646,
+      16857,
+      17843,
+      18016,
+      18064,
+      18117,
+      18230,
+      18238
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the employer of Lynn Margulis' spouse?",
+     "a": "Not specified"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 24,
+   "question": "What kind of sports is Tina Charles into, based on the position she plays in her team?",
+   "prediction": "defensive back",
+   "gold": "American football",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What kind of sports is Tina Charles into, based on the position she plays in her team?",
+     "k": 10,
+     "serials": [
+      8338,
+      9604,
+      11106,
+      12974,
+      13229,
+      13559,
+      15490,
+      17623,
+      18055,
+      18194
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What kind of sports is Tina Charles into, based on the position she plays in her team?",
+     "a": "defensive back"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 25,
+   "question": "What is the continent of the country where the director / manager of \"Please Please Me\" holds citizenship?",
+   "prediction": "Italy",
+   "gold": "Oceania",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the continent of the country where the director / manager of \"Please Please Me\" holds citizenship?",
+     "k": 10,
+     "serials": [
+      13824,
+      14624,
+      14860,
+      15541,
+      15938,
+      17737,
+      17807,
+      18003,
+      18085,
+      18199
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the continent of the country where the director / manager of \"Please Please Me\" holds citizenship?",
+     "a": "Italy"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 26,
+   "question": "What is the birthplace of the spouse of Bianca Jagger?",
+   "prediction": "Mick Jagger",
+   "gold": "North Charleston",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the birthplace of the spouse of Bianca Jagger?",
+     "k": 10,
+     "serials": [
+      10058,
+      14546,
+      16230,
+      16848,
+      16893,
+      17018,
+      17149,
+      17759,
+      18109,
+      18290
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the birthplace of the spouse of Bianca Jagger?",
+     "a": "Mick Jagger"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 27,
+   "question": "What city served as the capital of the country to which the founder of the sport played in the 2014 World Judo Championships belonged?",
+   "prediction": "Norway",
+   "gold": "New Delhi",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What city served as the capital of the country to which the founder of the sport played in the 2014 World Judo Championships belonged?",
+     "k": 10,
+     "serials": [
+      4806,
+      5117,
+      9721,
+      10581,
+      11176,
+      11585,
+      11958,
+      14240,
+      14666,
+      15833
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What city served as the capital of the country to which the founder of the sport played in the 2014 World Judo Championships belonged?",
+     "a": "Norway"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 28,
+   "question": "In which city is the seat of government located in the country where Family Force 5 came from?",
+   "prediction": "Japan",
+   "gold": "Bondi Junction",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which city is the seat of government located in the country where Family Force 5 came from?",
+     "k": 10,
+     "serials": [
+      1389,
+      12591,
+      13477,
+      14971,
+      16318,
+      16732,
+      17367,
+      17671,
+      17796,
+      18052
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which city is the seat of government located in the country where Family Force 5 came from?",
+     "a": "Japan"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 29,
+   "question": "What location was the place of death of the author of Carmilla?",
+   "prediction": "Dublin",
+   "gold": "New York City",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What location was the place of death of the author of Carmilla?",
+     "k": 10,
+     "serials": [
+      5947,
+      8025,
+      12600,
+      12994,
+      13652,
+      14283,
+      15374,
+      16690,
+      17372,
+      17828
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What location was the place of death of the author of Carmilla?",
+     "a": "Dublin"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 30,
+   "question": "From what country does the music genre of Dave Matthews Band originate?",
+   "prediction": "United States of America",
+   "gold": "Spain",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "From what country does the music genre of Dave Matthews Band originate?",
+     "k": 10,
+     "serials": [
+      12578,
+      14439,
+      15106,
+      15207,
+      16541,
+      16732,
+      17316,
+      17367,
+      17419,
+      18020
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "From what country does the music genre of Dave Matthews Band originate?",
+     "a": "United States of America"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 31,
+   "question": "Who holds the position of chairperson at the organization where Stephen Greenblatt is employed?",
+   "prediction": "X Prize Foundation",
+   "gold": "Mike Cheston",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Who holds the position of chairperson at the organization where Stephen Greenblatt is employed?",
+     "k": 10,
+     "serials": [
+      2023,
+      3676,
+      6522,
+      9292,
+      10686,
+      16171,
+      16352,
+      16682,
+      17411,
+      18311
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Who holds the position of chairperson at the organization where Stephen Greenblatt is employed?",
+     "a": "X Prize Foundation"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 32,
+   "question": "What is the language recognized as the official medium of communication in the country where the director/manager of the performer with ID 1 is a citizen?",
+   "prediction": "English",
+   "gold": "Arabic",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the language recognized as the official medium of communication in the country where the director/manager of the performer with ID 1 is a citizen?",
+     "k": 10,
+     "serials": [
+      15405,
+      15483,
+      16157,
+      17277,
+      17385,
+      17603,
+      17611,
+      17661,
+      17698,
+      18157
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the language recognized as the official medium of communication in the country where the director/manager of the performer with ID 1 is a citizen?",
+     "a": "English"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 33,
+   "question": "Who is responsible for the founding of the religious group that has its roots in the institution where James Michael Curley received his education?",
+   "prediction": "Gérard Blitz",
+   "gold": "Gérard Blitz",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Who is responsible for the founding of the religious group that has its roots in the institution where James Michael Curley received his education?",
+     "k": 10,
+     "serials": [
+      11294,
+      13779,
+      15083,
+      16067,
+      16369,
+      17012,
+      17838,
+      18045,
+      18165,
+      18324
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Who is responsible for the founding of the religious group that has its roots in the institution where James Michael Curley received his education?",
+     "a": "Gérard Blitz"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 34,
+   "question": "In what city did the individual who established Metz Cathedral have their occupation?",
+   "prediction": "London",
+   "gold": "London",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In what city did the individual who established Metz Cathedral have their occupation?",
+     "k": 10,
+     "serials": [
+      2346,
+      5089,
+      12785,
+      14569,
+      14599,
+      14742,
+      15083,
+      15168,
+      17155,
+      18113
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In what city did the individual who established Metz Cathedral have their occupation?",
+     "a": "London"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 35,
+   "question": "What is the capital city of the country which Sumie Sakai's sport founder holds citizenship in?",
+   "prediction": "Norway",
+   "gold": "New Delhi",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the capital city of the country which Sumie Sakai's sport founder holds citizenship in?",
+     "k": 10,
+     "serials": [
+      11585,
+      15275,
+      15422,
+      16598,
+      16704,
+      17229,
+      17356,
+      17449,
+      17570,
+      17888
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the capital city of the country which Sumie Sakai's sport founder holds citizenship in?",
+     "a": "Norway"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 36,
+   "question": "What is the name of the city which is the capital of the country where the director/manager of \"Back in the U.S.S.R.\" holds citizenship?",
+   "prediction": "Belgrade",
+   "gold": "Canberra",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the city which is the capital of the country where the director/manager of \"Back in the U.S.S.R.\" holds citizenship?",
+     "k": 10,
+     "serials": [
+      13661,
+      13824,
+      13945,
+      15862,
+      16041,
+      16112,
+      18002,
+      18082,
+      18096,
+      18290
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the city which is the capital of the country where the director/manager of \"Back in the U.S.S.R.\" holds citizenship?",
+     "a": "Belgrade"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 37,
+   "question": "What was the name of the person who founded the religion that Gabriel Narutowicz belonged to?",
+   "prediction": "Catholic Church",
+   "gold": "Gérard Blitz",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What was the name of the person who founded the religion that Gabriel Narutowicz belonged to?",
+     "k": 10,
+     "serials": [
+      13091,
+      16138,
+      16152,
+      16685,
+      17084,
+      17493,
+      17987,
+      18099,
+      18222,
+      18244
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What was the name of the person who founded the religion that Gabriel Narutowicz belonged to?",
+     "a": "Catholic Church"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 38,
+   "question": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+   "prediction": "Sweden",
+   "gold": "German",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+     "k": 10,
+     "serials": [
+      10253,
+      12147,
+      12339,
+      13983,
+      14885,
+      16540,
+      17157,
+      18008,
+      18032,
+      18135
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+     "a": "Sweden"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 39,
+   "question": "What is the name of the school where the author of \"La Celestina\" studied?",
+   "prediction": "Pontifical Catholic University of Peru",
+   "gold": "Princeton University",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the school where the author of \"La Celestina\" studied?",
+     "k": 10,
+     "serials": [
+      736,
+      5860,
+      10228,
+      13895,
+      14765,
+      16745,
+      16842,
+      17013,
+      17051,
+      17209
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the school where the author of \"La Celestina\" studied?",
+     "a": "Pontifical Catholic University of Peru"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 40,
+   "question": "Which language is considered the official language of the religion that Malik Kafur practiced?",
+   "prediction": "Picard",
+   "gold": "Picard",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which language is considered the official language of the religion that Malik Kafur practiced?",
+     "k": 10,
+     "serials": [
+      6249,
+      7110,
+      10691,
+      12223,
+      14088,
+      16114,
+      17091,
+      17328,
+      17574,
+      18086
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which language is considered the official language of the religion that Malik Kafur practiced?",
+     "a": "Picard"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 41,
+   "question": "What is the name of the individual who both directed and managed the performer on \"Yesterday and Today\"?",
+   "prediction": "Joe Hockey",
+   "gold": "Narendra Modi",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the individual who both directed and managed the performer on \"Yesterday and Today\"?",
+     "k": 10,
+     "serials": [
+      6012,
+      7742,
+      10021,
+      13210,
+      13335,
+      13824,
+      14032,
+      17578,
+      18125,
+      18170
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the individual who both directed and managed the performer on \"Yesterday and Today\"?",
+     "a": "Joe Hockey"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 42,
+   "question": "What city serves as the capital of the country where the sport played by Derek Holland originated?",
+   "prediction": "Japan",
+   "gold": "Ottawa",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What city serves as the capital of the country where the sport played by Derek Holland originated?",
+     "k": 10,
+     "serials": [
+      6530,
+      11785,
+      14373,
+      14700,
+      15640,
+      16130,
+      16132,
+      17344,
+      18174,
+      18178
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What city serves as the capital of the country where the sport played by Derek Holland originated?",
+     "a": "Japan"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 43,
+   "question": "What are the languages that the chairperson of Muttahida Qaumi Movement is fluent in when speaking, writing, or signing?",
+   "prediction": "English",
+   "gold": "English",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What are the languages that the chairperson of Muttahida Qaumi Movement is fluent in when speaking, writing, or signing?",
+     "k": 10,
+     "serials": [
+      1069,
+      5634,
+      5686,
+      9543,
+      13538,
+      13845,
+      15068,
+      17463,
+      18127,
+      18261
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What are the languages that the chairperson of Muttahida Qaumi Movement is fluent in when speaking, writing, or signing?",
+     "a": "English"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 44,
+   "question": "What city serves as the capital of the country that Ragini Dwivedi belongs to?",
+   "prediction": "United Kingdom",
+   "gold": "Rupnagar",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What city serves as the capital of the country that Ragini Dwivedi belongs to?",
+     "k": 10,
+     "serials": [
+      6364,
+      9732,
+      10807,
+      14296,
+      16588,
+      17295,
+      17943,
+      18082,
+      18089,
+      18185
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What city serves as the capital of the country that Ragini Dwivedi belongs to?",
+     "a": "United Kingdom"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 45,
+   "question": "What is the place of demise of the author of the book \"Dubliners\"?",
+   "prediction": "city of Zürich",
+   "gold": "London",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the place of demise of the author of the book \"Dubliners\"?",
+     "k": 10,
+     "serials": [
+      4873,
+      6481,
+      7516,
+      8025,
+      12927,
+      13168,
+      13932,
+      14481,
+      17586,
+      18053
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the place of demise of the author of the book \"Dubliners\"?",
+     "a": "city of Zürich"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 46,
+   "question": "Where is the headquarters of the company that developed Sailfish OS located?",
+   "prediction": "Helsinki",
+   "gold": "Normanton",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Where is the headquarters of the company that developed Sailfish OS located?",
+     "k": 10,
+     "serials": [
+      9900,
+      12215,
+      12434,
+      12699,
+      15038,
+      17060,
+      17226,
+      17880,
+      18139,
+      18272
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Where is the headquarters of the company that developed Sailfish OS located?",
+     "a": "Helsinki"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 47,
+   "question": "Which city serves as the capital of the country of origin of the sport that David Price plays?",
+   "prediction": "Detroit",
+   "gold": "Manila",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which city serves as the capital of the country of origin of the sport that David Price plays?",
+     "k": 10,
+     "serials": [
+      12140,
+      13442,
+      14700,
+      15317,
+      16113,
+      16132,
+      17170,
+      17667,
+      17859,
+      18174
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which city serves as the capital of the country of origin of the sport that David Price plays?",
+     "a": "Detroit"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 48,
+   "question": "Which language is the official language of the country where the spouse of the artist who sang \"All of Me\" comes from?",
+   "prediction": "English",
+   "gold": "Spanish",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which language is the official language of the country where the spouse of the artist who sang \"All of Me\" comes from?",
+     "k": 10,
+     "serials": [
+      15483,
+      16285,
+      16487,
+      17277,
+      17366,
+      17532,
+      17661,
+      17801,
+      18157,
+      18261
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which language is the official language of the country where the spouse of the artist who sang \"All of Me\" comes from?",
+     "a": "English"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 49,
+   "question": "What is the birthplace of the person who created Indiana Jones?",
+   "prediction": "Modesto",
+   "gold": "Lüftelberg",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the birthplace of the person who created Indiana Jones?",
+     "k": 10,
+     "serials": [
+      12002,
+      12281,
+      13587,
+      15401,
+      16345,
+      16885,
+      17006,
+      17143,
+      17775,
+      18179
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the birthplace of the person who created Indiana Jones?",
+     "a": "Modesto"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 50,
+   "question": "What is the name of the person who leads the company that produces the Chevrolet Chevelle?",
+   "prediction": "Mary Barra",
+   "gold": "David Potts",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the person who leads the company that produces the Chevrolet Chevelle?",
+     "k": 10,
+     "serials": [
+      2255,
+      7530,
+      10710,
+      13255,
+      15214,
+      15600,
+      16083,
+      16833,
+      18095,
+      18279
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the person who leads the company that produces the Chevrolet Chevelle?",
+     "a": "Mary Barra"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 51,
+   "question": "Which profession does the chairperson of the Economic Freedom Fighters belong to?",
+   "prediction": "politician",
+   "gold": "composer",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which profession does the chairperson of the Economic Freedom Fighters belong to?",
+     "k": 10,
+     "serials": [
+      1694,
+      10189,
+      12309,
+      12369,
+      13558,
+      13845,
+      15647,
+      15974,
+      17594,
+      17624
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which profession does the chairperson of the Economic Freedom Fighters belong to?",
+     "a": "politician"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 52,
+   "question": "Which continent is the place of birth of the CEO of the developer of Windows Aero located in?",
+   "prediction": "Cannot be determined",
+   "gold": "Africa",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which continent is the place of birth of the CEO of the developer of Windows Aero located in?",
+     "k": 10,
+     "serials": [
+      4464,
+      11440,
+      13570,
+      15177,
+      15592,
+      15743,
+      16470,
+      17252,
+      17754,
+      18224
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which continent is the place of birth of the CEO of the developer of Windows Aero located in?",
+     "a": "Cannot be determined"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 53,
+   "question": "Who currently holds the position of head of government in the country where the genre of Julian Lennon was founded?",
+   "prediction": "Dietlind Grabe",
+   "gold": "Ole Johan Vierdal",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Who currently holds the position of head of government in the country where the genre of Julian Lennon was founded?",
+     "k": 10,
+     "serials": [
+      12302,
+      15947,
+      16127,
+      16153,
+      16666,
+      17336,
+      17706,
+      17873,
+      18039,
+      18266
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Who currently holds the position of head of government in the country where the genre of Julian Lennon was founded?",
+     "a": "Dietlind Grabe"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 54,
+   "question": "In which city did the founder of the religion of Steve Cooley have their work location?",
+   "prediction": "Unable to determine",
+   "gold": "Washington, D.C.",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which city did the founder of the religion of Steve Cooley have their work location?",
+     "k": 10,
+     "serials": [
+      1853,
+      11860,
+      13415,
+      13843,
+      14552,
+      16369,
+      16792,
+      17066,
+      17744,
+      18045
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which city did the founder of the religion of Steve Cooley have their work location?",
+     "a": "Unable to determine"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 55,
+   "question": "Which city serves as the capital of the country where the director/manager of the original broadcaster of The Partridge Family is a citizen of?",
+   "prediction": "Harrisville",
+   "gold": "Oderzo",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which city serves as the capital of the country where the director/manager of the original broadcaster of The Partridge Family is a citizen of?",
+     "k": 10,
+     "serials": [
+      13584,
+      16310,
+      16528,
+      17671,
+      17787,
+      17844,
+      17959,
+      18031,
+      18187,
+      18223
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which city serves as the capital of the country where the director/manager of the original broadcaster of The Partridge Family is a citizen of?",
+     "a": "Harrisville"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 56,
+   "question": "What is the name of the person who was in charge of the organization that Philip Agee worked for?",
+   "prediction": "Alfonso Miranda Márquez",
+   "gold": "Christopher A. Wray",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the person who was in charge of the organization that Philip Agee worked for?",
+     "k": 10,
+     "serials": [
+      12669,
+      14409,
+      15151,
+      15258,
+      15936,
+      17168,
+      17680,
+      18212,
+      18238,
+      18310
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the person who was in charge of the organization that Philip Agee worked for?",
+     "a": "Alfonso Miranda Márquez"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 57,
+   "question": "What is the birthplace of the person who established the religion of Saint Eligius?",
+   "prediction": "Methodism",
+   "gold": "Epworth",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the birthplace of the person who established the religion of Saint Eligius?",
+     "k": 10,
+     "serials": [
+      9381,
+      10302,
+      12629,
+      14569,
+      15077,
+      16958,
+      17889,
+      17960,
+      18101,
+      18165
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the birthplace of the person who established the religion of Saint Eligius?",
+     "a": "Methodism"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 58,
+   "question": "What is the authorship's greatest contribution to literature of the book \"The Age of Reason\"?",
+   "prediction": "Thomas Paine",
+   "gold": "Natya Shastra",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the authorship's greatest contribution to literature of the book \"The Age of Reason\"?",
+     "k": 10,
+     "serials": [
+      3053,
+      14064,
+      14403,
+      14418,
+      15310,
+      15350,
+      15402,
+      17786,
+      17963,
+      18141
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the authorship's greatest contribution to literature of the book \"The Age of Reason\"?",
+     "a": "Thomas Paine"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 59,
+   "question": "What is the birthplace of the current holder of the Illinois Attorney General's office?",
+   "prediction": "city of Chicago",
+   "gold": "Higashiyamanashi District, Yamanashi",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the birthplace of the current holder of the Illinois Attorney General's office?",
+     "k": 10,
+     "serials": [
+      1384,
+      9640,
+      11939,
+      13262,
+      13540,
+      15347,
+      15803,
+      17059,
+      17129,
+      18152
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the birthplace of the current holder of the Illinois Attorney General's office?",
+     "a": "city of Chicago"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 60,
+   "question": "Which historical or religious figure established the religion that Nicholas V is affiliated with?",
+   "prediction": "The Church of Jesus Christ of Latter-day Saints",
+   "gold": "Lyndon B. Johnson",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which historical or religious figure established the religion that Nicholas V is affiliated with?",
+     "k": 10,
+     "serials": [
+      1565,
+      2493,
+      8234,
+      14434,
+      14953,
+      15968,
+      16056,
+      16697,
+      17241,
+      18222
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which historical or religious figure established the religion that Nicholas V is affiliated with?",
+     "a": "The Church of Jesus Christ of Latter-day Saints"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 61,
+   "question": "What is the birthplace of the author of Ivanhoe?",
+   "prediction": "Mexico City",
+   "gold": "Mexico City",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the birthplace of the author of Ivanhoe?",
+     "k": 10,
+     "serials": [
+      8885,
+      9878,
+      13087,
+      14615,
+      14766,
+      15538,
+      15915,
+      16641,
+      17567,
+      18179
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the birthplace of the author of Ivanhoe?",
+     "a": "Mexico City"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 62,
+   "question": "What is the name of the child of the person who created Feluda?",
+   "prediction": "Terry Pratchett",
+   "gold": "Zygmunt Krasiński",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the child of the person who created Feluda?",
+     "k": 10,
+     "serials": [
+      103,
+      11618,
+      13894,
+      14519,
+      15933,
+      15987,
+      17077,
+      17253,
+      17439,
+      17687
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the child of the person who created Feluda?",
+     "a": "Terry Pratchett"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 63,
+   "question": "In what city does the director/manager of the original broadcaster of \"NHL on ABC\" hold their citizenship?",
+   "prediction": "Universal City",
+   "gold": "New Delhi",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In what city does the director/manager of the original broadcaster of \"NHL on ABC\" hold their citizenship?",
+     "k": 10,
+     "serials": [
+      11400,
+      11457,
+      12573,
+      12622,
+      13584,
+      13862,
+      15359,
+      17261,
+      18108,
+      18154
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In what city does the director/manager of the original broadcaster of \"NHL on ABC\" hold their citizenship?",
+     "a": "Universal City"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 64,
+   "question": "Which language is considered the official language of the country to which Yip Harburg belongs?",
+   "prediction": "Hungarian",
+   "gold": "Finnish",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which language is considered the official language of the country to which Yip Harburg belongs?",
+     "k": 10,
+     "serials": [
+      3320,
+      5550,
+      13240,
+      14116,
+      14141,
+      15655,
+      15876,
+      16157,
+      16854,
+      17661
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which language is considered the official language of the country to which Yip Harburg belongs?",
+     "a": "Hungarian"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 65,
+   "question": "What is the literary genre of the book \"Dune\" written by the author?",
+   "prediction": "Dune",
+   "gold": "progressive rock",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the literary genre of the book \"Dune\" written by the author?",
+     "k": 10,
+     "serials": [
+      3751,
+      5747,
+      8560,
+      9521,
+      9533,
+      11803,
+      12487,
+      14443,
+      16909,
+      17375
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the literary genre of the book \"Dune\" written by the author?",
+     "a": "Dune"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 66,
+   "question": "What is the continent of origin of Thomas Dolby, a musician?",
+   "prediction": "Los Angeles",
+   "gold": "South America",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the continent of origin of Thomas Dolby, a musician?",
+     "k": 10,
+     "serials": [
+      733,
+      9747,
+      15549,
+      16459,
+      16896,
+      17430,
+      17545,
+      17589,
+      18137,
+      18309
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the continent of origin of Thomas Dolby, a musician?",
+     "a": "Los Angeles"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 67,
+   "question": "What is the name of the school where the founder of House of Bonaparte studied?",
+   "prediction": "Gustav I of Sweden",
+   "gold": "Trinity College Dublin",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the school where the founder of House of Bonaparte studied?",
+     "k": 10,
+     "serials": [
+      6815,
+      7623,
+      7773,
+      11516,
+      15102,
+      15684,
+      15687,
+      16559,
+      16759,
+      17861
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the school where the founder of House of Bonaparte studied?",
+     "a": "Gustav I of Sweden"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 68,
+   "question": "In which place was the manufacturing company of Chevrolet Caprice founded?",
+   "prediction": "Detroit",
+   "gold": "Silver Lake",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which place was the manufacturing company of Chevrolet Caprice founded?",
+     "k": 10,
+     "serials": [
+      11111,
+      11780,
+      15147,
+      15214,
+      15600,
+      16083,
+      16833,
+      17432,
+      18095,
+      18279
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which place was the manufacturing company of Chevrolet Caprice founded?",
+     "a": "Detroit"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 69,
+   "question": "Which city is the capital of the country where the genre, which Benjamin Sisko performed, originated?",
+   "prediction": "Harrisville",
+   "gold": "Rajanpur",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which city is the capital of the country where the genre, which Benjamin Sisko performed, originated?",
+     "k": 10,
+     "serials": [
+      9952,
+      11662,
+      14935,
+      15294,
+      16135,
+      17458,
+      17631,
+      17671,
+      18020,
+      18052
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which city is the capital of the country where the genre, which Benjamin Sisko performed, originated?",
+     "a": "Harrisville"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 70,
+   "question": "What country is the nationality of the spouse of the author of \"David Copperfield\"?",
+   "prediction": "Uruguay",
+   "gold": "Belgium",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What country is the nationality of the spouse of the author of \"David Copperfield\"?",
+     "k": 10,
+     "serials": [
+      12491,
+      14597,
+      15533,
+      16539,
+      16660,
+      16984,
+      17154,
+      17597,
+      17650,
+      18248
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What country is the nationality of the spouse of the author of \"David Copperfield\"?",
+     "a": "Uruguay"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 71,
+   "question": "In which organization did Francis Parkman work as an employee and who is its chairperson?",
+   "prediction": "Office of Strategic Services",
+   "gold": "William J. Donovan",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which organization did Francis Parkman work as an employee and who is its chairperson?",
+     "k": 10,
+     "serials": [
+      2936,
+      15193,
+      15375,
+      16352,
+      16563,
+      16682,
+      16705,
+      17411,
+      17945,
+      18311
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which organization did Francis Parkman work as an employee and who is its chairperson?",
+     "a": "Office of Strategic Services"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 72,
+   "question": "What is the capital of the country where the director/manager of \"Good Morning America\" holds a citizenship?",
+   "prediction": "Germany",
+   "gold": "Beaumont",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the capital of the country where the director/manager of \"Good Morning America\" holds a citizenship?",
+     "k": 10,
+     "serials": [
+      10000,
+      11400,
+      11457,
+      12554,
+      13274,
+      14123,
+      15219,
+      15948,
+      17261,
+      18213
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the capital of the country where the director/manager of \"Good Morning America\" holds a citizenship?",
+     "a": "Germany"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 73,
+   "question": "In which language does the government of the country Pee Wee King holds citizenship conduct its official business?",
+   "prediction": "German",
+   "gold": "Hebrew",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which language does the government of the country Pee Wee King holds citizenship conduct its official business?",
+     "k": 10,
+     "serials": [
+      2608,
+      8543,
+      14015,
+      15311,
+      16259,
+      16302,
+      16454,
+      17661,
+      17774,
+      17984
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which language does the government of the country Pee Wee King holds citizenship conduct its official business?",
+     "a": "German"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 74,
+   "question": "In what language do official government documents get written in the country that Tomokazu Seki is a citizen of?",
+   "prediction": "Swedish",
+   "gold": "German",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In what language do official government documents get written in the country that Tomokazu Seki is a citizen of?",
+     "k": 10,
+     "serials": [
+      295,
+      14560,
+      15054,
+      15275,
+      15331,
+      15572,
+      15821,
+      16189,
+      16516,
+      16704
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In what language do official government documents get written in the country that Tomokazu Seki is a citizen of?",
+     "a": "Swedish"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 75,
+   "question": "What continent is the country of citizenship of the manager/director of Taxman located in?",
+   "prediction": "Europe",
+   "gold": "Asia",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What continent is the country of citizenship of the manager/director of Taxman located in?",
+     "k": 10,
+     "serials": [
+      13675,
+      15541,
+      16370,
+      16839,
+      17356,
+      17478,
+      17558,
+      17615,
+      18018,
+      18211
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What continent is the country of citizenship of the manager/director of Taxman located in?",
+     "a": "Europe"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 76,
+   "question": "In which city was the person who created the centrifugal governor born?",
+   "prediction": "Robert Louis Stevenson",
+   "gold": "Edinburgh",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which city was the person who created the centrifugal governor born?",
+     "k": 10,
+     "serials": [
+      9759,
+      11380,
+      15168,
+      15347,
+      15868,
+      16896,
+      17155,
+      17906,
+      18259,
+      18296
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which city was the person who created the centrifugal governor born?",
+     "a": "Robert Louis Stevenson"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 77,
+   "question": "What is the name of the capital city of the country to which the spouse of the author of Star Trek canon holds citizenship?",
+   "prediction": "Joseph Goebbels",
+   "gold": "Berlin",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the capital city of the country to which the spouse of the author of Star Trek canon holds citizenship?",
+     "k": 10,
+     "serials": [
+      14229,
+      15429,
+      16287,
+      16345,
+      16542,
+      16661,
+      16662,
+      16781,
+      17386,
+      17780
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the capital city of the country to which the spouse of the author of Star Trek canon holds citizenship?",
+     "a": "Joseph Goebbels"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 78,
+   "question": "Which language is considered the official language of Eric Weissberg's country of citizenship?",
+   "prediction": "German",
+   "gold": "Finnish",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which language is considered the official language of Eric Weissberg's country of citizenship?",
+     "k": 10,
+     "serials": [
+      12013,
+      13897,
+      15135,
+      15561,
+      16854,
+      17043,
+      17430,
+      17603,
+      17615,
+      17661
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which language is considered the official language of Eric Weissberg's country of citizenship?",
+     "a": "German"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 79,
+   "question": "Where is the educational institution located where Tom Selleck was educated and its headquarters also situated?",
+   "prediction": "Vienna",
+   "gold": "Vienna",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Where is the educational institution located where Tom Selleck was educated and its headquarters also situated?",
+     "k": 10,
+     "serials": [
+      916,
+      15922,
+      15939,
+      15998,
+      16341,
+      16972,
+      17181,
+      17380,
+      18071,
+      18155
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Where is the educational institution located where Tom Selleck was educated and its headquarters also situated?",
+     "a": "Vienna"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 80,
+   "question": "Which language was used by Mario Puzo in writing his famous work?",
+   "prediction": "Japanese",
+   "gold": "American English",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which language was used by Mario Puzo in writing his famous work?",
+     "k": 10,
+     "serials": [
+      3519,
+      4045,
+      4590,
+      6246,
+      14985,
+      15908,
+      15965,
+      16461,
+      17269,
+      17575
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which language was used by Mario Puzo in writing his famous work?",
+     "a": "Japanese"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 81,
+   "question": "Which continent is the country of origin of Teenage Fanclub located in?",
+   "prediction": "Europe",
+   "gold": "Oceania",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which continent is the country of origin of Teenage Fanclub located in?",
+     "k": 10,
+     "serials": [
+      8765,
+      11877,
+      13338,
+      14974,
+      15498,
+      17017,
+      17437,
+      17707,
+      18250,
+      18252
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which continent is the country of origin of Teenage Fanclub located in?",
+     "a": "Europe"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 82,
+   "question": "Where was the work location of the individual who founded the religion practiced by Edward Mooney?",
+   "prediction": "Melbourne",
+   "gold": "Riyadh Region",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Where was the work location of the individual who founded the religion practiced by Edward Mooney?",
+     "k": 10,
+     "serials": [
+      9421,
+      13731,
+      14455,
+      16363,
+      16369,
+      17066,
+      17970,
+      18045,
+      18196,
+      18244
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Where was the work location of the individual who founded the religion practiced by Edward Mooney?",
+     "a": "Melbourne"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 83,
+   "question": "What is the professional background of the spouse of Lalu Prasad Yadav?",
+   "prediction": "Goldust",
+   "gold": "singer",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the professional background of the spouse of Lalu Prasad Yadav?",
+     "k": 10,
+     "serials": [
+      4795,
+      8502,
+      8996,
+      10356,
+      11536,
+      11562,
+      13724,
+      14252,
+      15123,
+      17434
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the professional background of the spouse of Lalu Prasad Yadav?",
+     "a": "Goldust"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 84,
+   "question": "What is the name of the capital city of the country that is the origin of the sport played by Enrico Villanueva?",
+   "prediction": "Sipirok",
+   "gold": "Bondi Junction",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the capital city of the country that is the origin of the sport played by Enrico Villanueva?",
+     "k": 10,
+     "serials": [
+      8364,
+      12809,
+      16611,
+      16836,
+      16948,
+      17137,
+      17451,
+      17637,
+      17989,
+      18034
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the capital city of the country that is the origin of the sport played by Enrico Villanueva?",
+     "a": "Sipirok"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 85,
+   "question": "In what field did the author, who is known for Julius Caesar, work in?",
+   "prediction": "businessperson",
+   "gold": "philosopher",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In what field did the author, who is known for Julius Caesar, work in?",
+     "k": 10,
+     "serials": [
+      5992,
+      10845,
+      11230,
+      13822,
+      14936,
+      15236,
+      15486,
+      15843,
+      16075,
+      17613
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In what field did the author, who is known for Julius Caesar, work in?",
+     "a": "businessperson"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 86,
+   "question": "Which faith is the partner of Benigno Aquino Jr. affiliated with?",
+   "prediction": "Methodism",
+   "gold": "Methodism",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which faith is the partner of Benigno Aquino Jr. affiliated with?",
+     "k": 10,
+     "serials": [
+      6060,
+      8603,
+      9976,
+      10315,
+      12137,
+      13161,
+      13598,
+      15521,
+      17988,
+      18004
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which faith is the partner of Benigno Aquino Jr. affiliated with?",
+     "a": "Methodism"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 87,
+   "question": "From which country does the spouse of the creator of WWE Tough Enough hold citizenship?",
+   "prediction": "United Kingdom",
+   "gold": "Ireland",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "From which country does the spouse of the creator of WWE Tough Enough hold citizenship?",
+     "k": 10,
+     "serials": [
+      12649,
+      13017,
+      13498,
+      14939,
+      16169,
+      16226,
+      16898,
+      17048,
+      17835,
+      18109
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "From which country does the spouse of the creator of WWE Tough Enough hold citizenship?",
+     "a": "United Kingdom"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 88,
+   "question": "What is the name of the current head of state of the country where \"Outsourced\" came from?",
+   "prediction": "Turkey",
+   "gold": "Recep Tayyip Erdoğan",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the current head of state of the country where \"Outsourced\" came from?",
+     "k": 10,
+     "serials": [
+      8351,
+      14810,
+      14964,
+      15989,
+      15992,
+      16774,
+      17626,
+      17710,
+      17728,
+      18283
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the current head of state of the country where \"Outsourced\" came from?",
+     "a": "Turkey"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 89,
+   "question": "In which city is the headquarters of the TV network that originally broadcasted NBA on ABC?",
+   "prediction": "British Broadcasting Corporation",
+   "gold": "Red Bank",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which city is the headquarters of the TV network that originally broadcasted NBA on ABC?",
+     "k": 10,
+     "serials": [
+      3743,
+      11400,
+      12573,
+      12622,
+      13862,
+      14642,
+      15359,
+      15612,
+      17787,
+      17804
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which city is the headquarters of the TV network that originally broadcasted NBA on ABC?",
+     "a": "British Broadcasting Corporation"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 90,
+   "question": "What is the name of the founder of the religion associated with Dzhokhar Dudayev?",
+   "prediction": "Catholic Church",
+   "gold": "Gérard Blitz",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the founder of the religion associated with Dzhokhar Dudayev?",
+     "k": 10,
+     "serials": [
+      6662,
+      10822,
+      15521,
+      16440,
+      17233,
+      17987,
+      18102,
+      18196,
+      18203,
+      18244
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the founder of the religion associated with Dzhokhar Dudayev?",
+     "a": "Catholic Church"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 91,
+   "question": "Which political figure holds the role of head of state for the country that Brad Stevens' sport is associated with?",
+   "prediction": "Ole Johan Vierdal",
+   "gold": "Mikhail Gorbachev",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which political figure holds the role of head of state for the country that Brad Stevens' sport is associated with?",
+     "k": 10,
+     "serials": [
+      8229,
+      14719,
+      15947,
+      16153,
+      16666,
+      17323,
+      17429,
+      17651,
+      17676,
+      17953
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which political figure holds the role of head of state for the country that Brad Stevens' sport is associated with?",
+     "a": "Ole Johan Vierdal"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 92,
+   "question": "What is the name of the leader of the government in the country where the sport related to the 1985 NBA Draft originated?",
+   "prediction": "Abdul Hamid al-Dik",
+   "gold": "Lili Bosse",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the name of the leader of the government in the country where the sport related to the 1985 NBA Draft originated?",
+     "k": 10,
+     "serials": [
+      10814,
+      12093,
+      12575,
+      12731,
+      16699,
+      17421,
+      17626,
+      17758,
+      18008,
+      18135
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the name of the leader of the government in the country where the sport related to the 1985 NBA Draft originated?",
+     "a": "Abdul Hamid al-Dik"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 93,
+   "question": "In which city is the capital located of the country where the sport that Ricky Rubio plays originated?",
+   "prediction": "Hartford",
+   "gold": "Bondi Junction",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "In which city is the capital located of the country where the sport that Ricky Rubio plays originated?",
+     "k": 10,
+     "serials": [
+      6264,
+      8288,
+      12504,
+      13728,
+      14794,
+      16411,
+      16668,
+      16706,
+      16836,
+      16959
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "In which city is the capital located of the country where the sport that Ricky Rubio plays originated?",
+     "a": "Hartford"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 94,
+   "question": "What is the primary language spoken in the country where Flogging Molly comes from?",
+   "prediction": "English",
+   "gold": "English",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the primary language spoken in the country where Flogging Molly comes from?",
+     "k": 10,
+     "serials": [
+      1064,
+      10389,
+      12409,
+      13388,
+      14121,
+      15207,
+      15483,
+      16157,
+      17296,
+      18051
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the primary language spoken in the country where Flogging Molly comes from?",
+     "a": "English"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 95,
+   "question": "Which company did the employer of the creator of Link work for?",
+   "prediction": "University of Oxford",
+   "gold": "University of Oxford",
+   "EM": true,
+   "SubEM": true,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which company did the employer of the creator of Link work for?",
+     "k": 10,
+     "serials": [
+      4947,
+      7367,
+      9006,
+      11134,
+      15759,
+      17115,
+      17292,
+      17596,
+      17735,
+      17754
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which company did the employer of the creator of Link work for?",
+     "a": "University of Oxford"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 96,
+   "question": "What is the country of origin of the sport associated with Dave Dombrowski's employer?",
+   "prediction": "Japan",
+   "gold": "Australia",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the country of origin of the sport associated with Dave Dombrowski's employer?",
+     "k": 10,
+     "serials": [
+      10023,
+      11331,
+      12528,
+      14700,
+      14751,
+      15298,
+      15317,
+      15704,
+      16305,
+      17925
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the country of origin of the sport associated with Dave Dombrowski's employer?",
+     "a": "Japan"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 97,
+   "question": "Which sport is associated with the position played by Bobby Hurley?",
+   "prediction": "association football",
+   "gold": "sumo",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "Which sport is associated with the position played by Bobby Hurley?",
+     "k": 10,
+     "serials": [
+      5892,
+      8861,
+      15736,
+      16036,
+      17170,
+      17323,
+      17968,
+      18034,
+      18073,
+      18181
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "Which sport is associated with the position played by Bobby Hurley?",
+     "a": "association football"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 98,
+   "question": "What is the place of employment of the individual who founded the religion practiced by Jacqueline Kennedy Onassis?",
+   "prediction": "Church of Scotland",
+   "gold": "Edinburgh",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the place of employment of the individual who founded the religion practiced by Jacqueline Kennedy Onassis?",
+     "k": 10,
+     "serials": [
+      6145,
+      8215,
+      13713,
+      14345,
+      14888,
+      16893,
+      17709,
+      17797,
+      17802,
+      18045
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the place of employment of the individual who founded the religion practiced by Jacqueline Kennedy Onassis?",
+     "a": "Church of Scotland"
+    }
+   ],
+   "error": ""
+  },
+  {
+   "qi": 99,
+   "question": "What is the birthplace of the person who founded the religion that Ferdinando I de' Medici professes?",
+   "prediction": "Methodism",
+   "gold": "Epworth",
+   "EM": false,
+   "SubEM": false,
+   "llm_calls": 1,
+   "plans": [],
+   "retrievals": [
+    {
+     "query": "What is the birthplace of the person who founded the religion that Ferdinando I de' Medici professes?",
+     "k": 10,
+     "serials": [
+      11027,
+      11090,
+      16253,
+      16393,
+      16525,
+      17084,
+      17443,
+      17738,
+      17865,
+      18244
+     ]
+    }
+   ],
+   "fixed_hops": [
+    {
+     "q": "What is the birthplace of the person who founded the religion that Ferdinando I de' Medici professes?",
+     "a": "Methodism"
+    }
+   ],
+   "error": ""
+  }
+ ]
+}
