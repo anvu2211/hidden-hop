@@ -58,7 +58,7 @@ Run Jupyter from `notebooks/` or from the package root.
 | FC-MH main table and depth sweep | `results/fcmh/` |
 | FC-MH reader comparison | `results/fcmh_other_readers/` plus `results/fcmh/` |
 | MuSiQue main table, depth sweep, traces, and variance | `results/musique/` |
-| EX-FEVER main table and retrieval analysis | `results/exfever/nb_rec_exfever_hybrid_gpt-4o-mini_n1000_full_run_{1,2}.json` |
+| EX-FEVER main table and retrieval analysis | `results/exfever/` |
 
 File names use `<dataset>_[reader_]<procedure>_k<depth>_run<n>.json`. `run<n>` denotes an
 independent execution. `_traced`, `_repaired`, and `_sharedplan` identify the logged trace, repaired
