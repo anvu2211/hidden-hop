@@ -22,7 +22,6 @@ results/
   musique/              MuSiQue-Ans, full development split
   exfever/              two EX-FEVER 1,000-claim runs
   annotation/           manual FC-MH hidden-hop annotation
-  prompts/              FC-MH Answer and Commit prompts
 requirements.txt
 MANIFEST.sha256
 ```
